@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
+    "pretty": true,
+    "removeComments": true,
+    "declaration": true,
+    "lib": ["es6","esnext"]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ]
+}
