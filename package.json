@@ -21,7 +21,7 @@
     "pubnub"
   ],
   "author": "David Lin (david.lin@pubnub.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/pubnub/graphql-pubnub-subscriptions/issues"
   },
