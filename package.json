@@ -1,6 +1,6 @@
 {
   "name": "graphql-pubnub-subscriptions",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "A GraphQL Subscriptions PubSub Engine for PubNub",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidnub/graphql-pubnub-subscriptions.git"
+    "url": "git+https://github.com/pubnub/graphql-pubnub-subscriptions.git"
   },
   "keywords": [
     "pubsub",
@@ -23,9 +23,9 @@
   "author": "David Lin (david.lin@pubnub.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/davidnub/graphql-pubnub-subscriptions/issues"
+    "url": "https://github.com/pubnub/graphql-pubnub-subscriptions/issues"
   },
-  "homepage": "https://github.com/davidnub/graphql-pubnub-subscriptions#readme",
+  "homepage": "https://github.com/pubnub/graphql-pubnub-subscriptions#readme",
   "dependencies": {
     "graphql-subscriptions": "^1.1.0",
     "iterall": "^1.3.0",
