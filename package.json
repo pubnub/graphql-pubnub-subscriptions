@@ -1,6 +1,6 @@
 {
   "name": "graphql-pubnub-subscriptions",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "A GraphQL Subscriptions PubSub Engine for PubNub",
   "main": "dist/index.js",
   "scripts": {
