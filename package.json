@@ -1,5 +1,5 @@
 {
-  "name": "graphql-pubnub-subscriptions",
+  "name": "@pubnub/graphql-pubnub-subscriptions",
   "version": "1.0.0",
   "description": "A GraphQL Subscriptions PubSub Engine for PubNub",
   "main": "dist/index.js",

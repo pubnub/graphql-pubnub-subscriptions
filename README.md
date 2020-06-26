@@ -10,8 +10,6 @@ or
    
 ## Using as AsyncIterator
 
-*TODO: UPDATE THIS*
-
 Define your GraphQL schema with a `Subscription` type:
 
 ```graphql
