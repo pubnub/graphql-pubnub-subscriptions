@@ -4,9 +4,9 @@ This package implements the PubSubEngine Interface from the [graphql-subscriptio
 
 ## Installation
 
-`npm install @pubnub/graphql-pubnub-subscriptions` 
+`npm install graphql-pubnub-subscriptions` 
 or
-`yarn add @pubnub/graphql-pubnub-subscriptions`
+`yarn add graphql-pubnub-subscriptions`
    
 ## Using as AsyncIterator
 
