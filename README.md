@@ -30,7 +30,7 @@ type Result {
 Now, let's create a simple `PNPubSub` instance:
 
 ```javascript
-import { PNPubSub } from '@pubnub/graphql-pubnub-subscriptions';
+import { PNPubSub } from 'graphql-pubnub-subscriptions';
 const pubsub = new PNPubSub();
 ```
 
@@ -106,7 +106,7 @@ export const resolvers = {
 ## Creating the PNPubSub Client
 
 ```javascript
-import { PNPubSub } from '@pubnub/graphql-pubnub-subscriptions';
+import { PNPubSub } from 'graphql-pubnub-subscriptions';
 
 const pubSub = new PNPubSub({
   subscribeKey: 'some subscribe key',
@@ -125,7 +125,7 @@ Please Note that not all options are implemented at this time and therefore may 
 There's an additional option to send some console debugs during execution by passing a _debug_ flag.
 
 ```javascript
-import { PNPubSub } from '@pubnub/graphql-pubnub-subscriptions';
+import { PNPubSub } from 'graphql-pubnub-subscriptions';
 
 const pubSub = new PNPubSub({
   subscribeKey: 'some subscribe key',
