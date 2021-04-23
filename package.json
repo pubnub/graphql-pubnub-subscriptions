@@ -7,8 +7,8 @@
     "clean": "rimraf dist",
     "compile": "tsc --build tsconfig.json",
     "prepublish": "npm run compile",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test:ts": "mocha -r ts-node/register src/**/*.tests.ts"
+    "dev": "npm run compile -- --watch",
+    "test": "mocha -r ts-node/register src/**/*.tests.ts --watch"
   },
   "repository": {
     "type": "git",
