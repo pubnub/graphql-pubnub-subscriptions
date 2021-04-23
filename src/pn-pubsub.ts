@@ -177,7 +177,7 @@ export class PNPubSub implements PubSubEngine {
         channels: [channel]
       });
     }
-    this.subsRefsMap[channel] = refs?.filter(([id]) => id === subscribeId)
+    this.subsRefsMap[channel] = refs?.filter(([id]) => id !== subscribeId)
   }
 
   public asyncIterator<T>(channels: string | string[]): AsyncIterator<T> {
